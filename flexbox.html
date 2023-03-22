@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+
+        .outerbox{
+            width: 100%;
+            height: 500px;
+            background-color: red;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+          
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin:10px;
+        }
+        
+
+    </style>
+
+
+</head>
+<body>
+    
+
+    <!-- Flexbox ==> It is used to align the elements in a website. -->
+
+    <!-- 1. Always add flex properties to the parent tag
+        2. justify-content is used to align the items in horizontal direction if flexdirection is row.
+        3. align-items is used to align the items in vertical direction if flexdirection is row.
+
+        3. align-items is used to align the items in horizontal  direction if flexdirection is column.
+        3. justify-content is used to align the items in vertical direction if flexdirection is column.
+    -->
+
+
+
+    <div class="outerbox">
+
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+
+
+
+
+</body>
+</html>
