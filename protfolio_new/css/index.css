@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Mono:wght@500&display=swap');
+
+body{
+    background: black;
+}
+
+.bg-dark{
+    background: black !important;
+}
+#particles-js{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    
+}
+.box{
+    position: absolute;
+    left: 15%;
+}
+.image img{
+    width: 700px;
+    height: 600px;
+}
+.image{
+    position: absolute;
+    right: 10%;
+}
+.box{
+    color: white;
+}
+.first-text{
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.second-text{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+.third-text{
+    font-size: 40px;
+}
